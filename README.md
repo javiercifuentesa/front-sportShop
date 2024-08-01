@@ -9,6 +9,8 @@
 
 * flex-box
 
+* JavaScript
+
 ## Made by:
 
 ## javiercifuentesa
