@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/front-sportShop/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-main">
+            <img class="logo-header" src="/front-sportShop/imagenes/logo.svg" alt="logo-sportit">
+            <a href="#" target="_blank">Sport</a>
+            <a href="#" target="_blank">Products</a>
+            <a href="#" target="_blank">About Us</a>
+            <a href="#" target="_blank">Trainning</a>
+            <a href="#" target="_blank">Community</a>
+            <button id="btn-contact" class="btn-contact">Contact</button>
+        </nav>
+    </header>
+    <div class="container-form">
+        <article class="text-contact">
+            <h1>Don't hesitate to contact us so that you don't miss the best moments.</h1>
+            <!-- <p>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
+            <button class="btn-contact">Contact</button> -->
+        </article>
+        <form id="form-contact" class="form" action="/front-sportShop/form/main.js">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Ingresa tu mensaje, consulta o solicitud" required></textarea>
+            <button class="btn-contact" type="submit">Send</button>
+        </form>
+    </div>
+    <div class="btn-return">
+        <button id="btn-index" class="btn-contact">Volver al inicio</button>
+    </div>
+    <footer class="footer-contact">
+        <p>© 2022 Sport-it</p>
+        <p>Created by <a href="https://github.com/javiercifuentesa">@javiercifuentesa</a></p>
+        <p>Copyright 2022. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
